@@ -1,15 +1,11 @@
-
-  .btn-crear-nota {
-    margin-right: auto; 
-  }
   body {
-    font-family: serif;
-    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  .note-container {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 5px;
+
+  #notas .card {
+    max-height: 300px;
+    max-width: 300px; /* Establecer una altura máxima para la tarjeta */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
   }
 
   
