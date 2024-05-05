@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloc de Notas</title>
+    <title>Listado de Notas</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./app.css">
-
 </head>
 
 <body>
     <div class="container">
-        <p class="h1 text-dark text-center display-2 my-3">Listado De Notas</p>
+        <p class="h1 text-dark fw-bold text-center display-2 my-4">Listado De Notas</p>
         <div class="row">
             <div class="d-flex justify-content-end">
-                <button type="submit" class="btn btn-warning my-4">Crear Nota</button>
+                <a href="./Crear.html">
+                    <button  class="btn btn-warning my-4">Crear Nota</button>
+                </a>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -28,7 +29,7 @@
                 <div class="col-md-10 ">
                     <form>
                         <div>
-                            <input type="text" class="form-control" name="searchstring" placeholder="Buscar notas...">
+                            <input type="search" class="form-control" name="searchString" placeholder="Buscar notas...">
                         </div>
                     </form>
                 </div>

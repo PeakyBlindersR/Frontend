@@ -8,5 +8,9 @@
     overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
   }
 
+  textarea {
+    width: 100%; /* Expand width to full container */
+    height: 150px; /* Set fixed height */
+  }
   
 
